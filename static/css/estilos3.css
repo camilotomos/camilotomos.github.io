@@ -1,0 +1,295 @@
+.nav-perfil
+{
+    background: #1e1e1e;
+	position: relative;
+	border: 2px solid #00dbff;
+	margin: 1em 2em;
+	border-radius: 1em;
+	text-align: center;	
+}
+.nul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0 0.5em 0 .5em;
+
+}
+.nil
+{
+	display: inline-block;
+	margin: 0 1em 0 0;
+	
+}
+.na
+{
+	color: #00dbff;
+	display: block;
+	padding: 0.5em;
+	margin: auto;
+	text-decoration: none;
+	-webkit-transition: 1s;
+}
+.na:hover{
+	background: blue;
+	color: white;
+	border-radius: 2em;
+
+}
+.na-u{
+	 
+	text-align: left; 
+	border-radius: 2em;
+	 
+/*	border: none; 2px solid white;*/
+  text-decoration: none;
+  padding: 0.6em; 
+  line-height: 3.75em;
+ box-shadow: rgba(255,0,0,0.5) 3px 3px 5px;
+	text-shadow: 1px 1px 5px #FF0000;
+	color:#fff;
+	-webkit-transition: 1s;
+
+
+}
+.na-u:hover{
+	background: blue;
+	color: white;
+	border-radius: 2em;
+	box-shadow: rgba(0,0,0,0) 0px 0px 0px;
+	text-shadow: 0px 0px 0px #000000;
+}
+
+.zoom{
+		transition: 1.5s ease;
+ 		-moz-transition: 1.5s ease; /* Firefox */
+ 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
+ 		-o-transition: 1.5s ease; /* Opera */
+	}
+.zoom:hover{
+		transform : scale(1.5);
+		-moz-transform : scale(1.5); /* Firefox */
+		-webkit-transform : scale(1.5); /* Chrome - Safari */
+		-o-transform : scale(1.5); /* Opera */
+		-ms-transform : scale(1.5); /* IE9 */
+	}
+
+.titulo-primaria
+{
+	text-align: center;
+	color: #00dbff;
+	font-weight: normal;
+	padding: 0.2em 0.5em;
+	margin: 0.2em 0.5em;
+}
+.primaria
+{
+	border: 2px solid white;
+	border-radius: 2em;
+	margin: 0.5em;
+	background: #000424;
+	/*width: 100%;*/
+}
+
+table 
+{ 
+	
+  width: 100%; 
+  border-spacing: 0.3em; 
+  padding-bottom: 1em;
+
+}
+/* Zebra striping #1e1e1e*/
+tr 
+{ 
+  background:none; /*1e1e1e; */
+  color: #00dbff;
+ 
+}
+th { 
+  background: #343B54; 
+  color: white; 
+  font-weight: bold;
+  border-radius: 2em; 
+  padding-bottom: 1em;
+}
+td, th
+{ 
+  padding: 0.6em; 
+  text-align: left; 
+  border-radius: 2em;
+  border: 2px solid white;
+  box-shadow: rgba(255,255,255,0.5) 5px 5px 20px;
+}
+
+/*otrosestudios*/
+.titulo-otrosestudios
+{
+	text-align: center;
+	color: red;
+	font-weight: normal;
+	padding: 0.2em 0.5em;
+	margin: 0.2em 0.5em;
+}
+.otrosestudios
+{
+	border: 2px solid white;
+	border-radius: 2em;
+	margin: 0.5em;
+	background: #000424;
+}
+
+table 
+{ 
+	
+  width: 100%; 
+  border-spacing: 0.3em; 
+  padding-bottom: 1em;
+   
+}
+/* Zebra striping */
+
+.tbcolor
+{
+	background: #797D86;
+  	color: white;
+
+}
+.aotroestudios
+{
+	color: white;
+	padding: 0.5em;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: 1.3s;
+}
+.aotroestudios:hover{
+	box-shadow: 0 0 30px white;
+	border-radius: 2em;
+}
+.thortrosestudios
+{
+	text-align: center;
+	background: #343B54;	
+}
+
+.titulo-otrosestudios
+{
+	text-align: center;
+	color: blue;
+	font-weight: bold;
+	padding: 0.2em 0.5em;
+	margin: 0.2em 0.5em;
+}
+/*Proyectos realizados y conocimientos tecnicos*/
+.tituloproyectos
+{
+	text-align: center;
+}
+.tituloproyec
+{
+	color: blue;
+	text-align: center;
+}
+.proyectosbox
+{
+	border: 2px solid white;
+	border-radius: 2em;
+	margin: 0.5em;
+	background: #000424;
+	margin-bottom: 2em;
+}
+.parrafo-proyectos
+{
+	color: white;
+}
+
+/*experiencia*/
+.experiencia
+{
+	border: 2px solid white;
+	border-radius: 2em;
+	margin: 0.5em;
+	background: #000424;
+	
+}
+
+.tbcolor
+{
+	background: #797D86;
+  	color: white;
+
+}
+.thorexperiencia
+{
+	text-align: center;
+	background: #343B54;	
+}
+
+.titulo-experiencia
+{
+	text-align: center;
+	color: blue;
+	font-weight: bold;
+	padding: 0.2em 0.5em;
+	margin: 0.2em 0.5em;
+}
+
+#contenido
+{
+	margin: 1em; 
+	padding-top: 2.5em;
+}
+#contenido .item
+{
+	
+	border-bottom: 3px solid #22BCE0;
+	margin-bottom: 3em;
+	min-height: 128px;
+	position: relative;
+}
+img{
+	
+	padding: 0.6em; 
+	text-align: left; 
+	border-radius: 2em;
+/*	border: none; 2px solid white;*/
+	box-shadow: rgba(255,255,255,0.5) 5px 5px 20px;
+}
+
+@media screen and (min-width: 900px){
+
+	#contenido
+	{
+		overflow: hidden;
+	}
+	#contenido .item 
+	{
+		width: 45%;
+		float: left;
+		padding-left: 0.1em
+	}
+	#contenido .item:nth-child(odd){
+		margin-right: 2%;
+	}
+	
+
+
+@media screen and (min-width: 400px){
+	aside
+	{
+		display: block;
+		float: right;
+		margin:1em;
+		width: 20%;
+	}
+	
+	}
+
+	@media screen and (max-width: 450px){
+	
+	.Profile-description
+		{
+		background-color: red;
+
+			}
+}

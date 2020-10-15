@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- idioma del html -->
+<html lang="es"> 
+
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="NHEKSHADOW es una compañia de desarrollo y aplicaciones web a la medida orientada a PYMES y personas que deseen tener su propia web"/>
+	<meta name="viewport" content="device-width, minimum-scale=1, maximum-scale=1"/>
+	<title>NHEK SHADOW: Desarrollo y Aplicaciones web a la mano </title>
+
+	<link rel="stylesheet" type="text/css" href="../static/css/normalize.css">
+	 <link rel="stylesheet" href="../static/css/estilos2.css">
+	 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="../static/css/estilos.css">
+</head>
+
+<body>
+<!-- Encabezado -->
+
+
+
+<nav>
+	<ul>
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="miperfil.html">Mi perfil</a></li>
+		<li><a href="#">Diseño Web</a></li>
+		<li><a href="#">Web Para Moviles</a></li>
+		<li><a href="#">Posicionamiento Web (SEO)</a></li>
+		<li><a href="#">Contactenos</a></li>
+		<li id="publicar_nav">
+			<a href="#" class="icon-mano-dere">publicar</a>
+		</li>
+	</ul>
+</nav>
+
+<!-- Perfil y fotos de muestra -->
+
+	<section id="perfil" class="profile">
+		<h2 class="profile-title u-title">DESCRIPCION DEL PERFIL PROFESIONAL</h2>
+		<p class="profile-description">
+			Amplia experiencia en soporte a dispositivos móviles Handheld de las líneas
+			Intermec, Honeywell y Motorola de igual manera a las impresoras zebras,
+			datamax e intermec (instalación de sistema operativo, diagnostico, reparación,
+			soporte en sito, soporte telefónico, soporte online y alistamiento de equipos para salidas a
+			productivo). Estudio de sitio para cobertura wifi empresarial, manejo de
+			inventario, participación en gerencia de proyectos tecnológicos, rollout de
+			equipos, buena presentación personal y manejo de clientes.
+		</p>
+	</section>
+
+		<section class="fotos-perfil">
+			<article class="work-item">
+				<figure class="work-		imagecontainer">
+					<img class="work-image" src="../static/img/avatar.jpg" alt="es la descripcion de mi imagen">
+				
+				</figure>
+			</article>
+			<article class="work-item">
+				<figure class="work-imagecontainer">
+					<img class="work-image" src="../static/img/avatar.jpg" alt="es la descripcion de mi imagen">
+					
+				</figure>
+			</article>
+			<article class="work-item">
+				<figure class="work-imagecontainer">
+				<img class="work-image" src="../static/img/avatar.jpg" alt="es la descripcion de mi imagen">
+				
+				</figure>
+			</article>
+			<article class="work-item">
+				<figure class="work-imagecontainer">
+				<img class="work-image" src="../static/img/avatar.jpg" alt="es la descripcion de mi imagen">
+				
+				</figure>
+			</article>
+		</section>
+
+<!-- barra de navegacion inferior -->
+
+	<section id="perfil" class="profile">
+		<p class="profile-description">
+			Hola... Estando aqui puedes conocer un poco mas de mi y contactarme
+		</p>
+	<nav class="nav-perfil">
+			<ul class="nul">
+				<li class="nil"><a class="na"  href="academico.html">Academico</a></li>
+				<li class="nil"><a class="na" href="proconte.html">Proyectos y Conocimientos Profesionales</a></li>
+				<li class="nil"><a class="na" href="experiencia.html">Experiencia Laboral</a></li>
+				<li class="nil"><a class="na" href="reffam.html">Referencias</a></li>
+			</ul>
+		</nav>
+
+<!-- Contacto -->
+ <footer id="contacto" class="Footer">
+            <div class="Footer-left">
+                
+                <p class="Footer-description">
+                    Si tienes alguna sugerencia o quieres que te preste mis servicios ponte en contacto diligenciando este pequeño formulario
+                </p>
+                
+                <a class="MainMenu-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdXGnQjuWP9gudGCUpvEHpfYc_AN5hBEyfV_-U0by4tjdzTNw/viewform?embedded=true"target="_black" width="300" height="300">
+                <button class="Footer-button"> Contactarme </button> 
+                </a>
+            </div>
+            <form class="Footer-form">
+               
+            </form>
+        </footer>
+        <script src="http://code.jquery.com/jquery-2.2.0.min.js" ></script>
+        <script src="../static/js/vendors/responsiveslides.min.js" ></script>
+        <script src="../static/js/vendors/hammer.min.js"></script>
+
+        <script>
+        $(function() {
+        $(".rslides").responsiveSlides();
+
+        if (window.matchMedia("(max-width:768px)").matches){
+            
+        var $buttonShowMenu = document.getElementById('showMenu');
+        var $buttonHideMenu = document.getElementById('hideMenu');
+        var $menu = document.getElementById('menu');
+        
+        var $body = document.querySelector('body');
+
+        var body = new Hammer($body);
+
+
+        var showMenu = function(){
+            $buttonShowMenu.classList.remove('is-active');
+            $buttonHideMenu.classList.add('is-active');
+            $menu.classList.add('is-active');
+        };
+
+        var hideMenu = function(){
+            $buttonShowMenu.classList.add('is-active');
+            $buttonHideMenu.classList.remove('is-active');
+            $menu.classList.remove('is-active');
+        };
+
+        $buttonShowMenu.addEventListener("click", showMenu);
+
+        $buttonHideMenu.addEventListener("click", hideMenu);
+
+        body.on('panright', showMenu);
+        body.on('panleft', hideMenu);
+
+        }
+        else
+        {
+            
+        }
+
+        });
+        </script>
+           
+    </body>
+</html>

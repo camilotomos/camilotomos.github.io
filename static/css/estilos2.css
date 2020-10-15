@@ -1,0 +1,694 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot?-k2yzon');
+	src:url('../fonts/icomoon/icomoon.eot?#iefix-k2yzon') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.ttf?-k2yzon') format('truetype'),
+		url('../fonts/icomoon/icomoon.woff?-k2yzon') format('woff'),
+		url('../fonts/icomoon/icomoon.svg?-k2yzon#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mano-bajo:before {
+	content: "\e600";
+	color: #343B54;
+}
+.icon-mano-arriba:before {
+	content: "\e601";
+	color: #3E0BF5;
+
+}
+.icon-mano-dere:before {
+	content: "\e603";
+	margin-right: 0.5em
+}
+.icon-star:before {
+	content: "\e60c";
+	color: #FF8000;
+	position: relative;
+	margin-right: 0.5em;
+	top: 0.1em;
+}
+
+
+
+@font-face {
+    font-family: 'bree_serifregular';
+    src: url('../fonts/breeserif/breeserif-regular-webfont.eot');
+    src: url('../fonts/breeserif/breeserif-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/breeserif/breeserif-regular-webfont.woff2') format('woff2'),
+         url('../fonts/breeserif/breeserif-regular-webfont.woff') format('woff'),
+         url('../fonts/breeserif/breeserif-regular-webfont.ttf') format('truetype'),
+         url('../fonts/breeserif/breeserif-regular-webfont.svg#bree_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a
+{
+	color: #3E0BF5;
+}
+aside
+{
+	display: none;
+}
+body
+{
+
+	background: #585858;
+	font-family: 'bree_serifregular';
+	font-size: 16px;
+
+
+}
+footer
+{
+
+	background: #343B54;
+	text-align: center;
+	color:#FFF;
+	padding: 0.05em;
+	font-size: .5em;
+	font-weight: normal;
+}
+footer p:first-child
+{
+	margin-bottom: 2px;
+}
+
+footer #logofoot img 
+{
+	border-right: 1px solid white;
+	margin-right: 0.5em;
+	padding-right: 0.5em;
+	width: 200px;
+	border-radius: 50px;
+	margin-bottom: 2px;
+
+}
+header
+{
+
+	background: #343B54;	
+	padding: 2em;
+	border: 1px solid white;
+	overflow: hidden;
+	position: relative;
+
+
+}
+header figure
+{
+	float: left;
+
+}
+header h1
+{
+
+	font-size: 1.2em;
+	margin: 1.5em 70px 0 0;
+	color:#FFF;
+	text-align: center;
+	
+}
+header #avatar
+{
+	margin: 0.5em 0.5em 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+header #avatar img
+{
+	border-radius: 50%;
+	width: 150px;
+}
+header #logo
+{
+
+	
+	/*padding-right: 0.5em;
+	margin-right: 0.5em;
+	*/
+}
+header #logo img
+{
+	
+
+	/*-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);*/
+	/*-webkit-transition:.5s;*/
+	transition: 1s;
+	border-right: 1px solid white;
+	margin-right: 0.5em;
+	padding-right: 0.4em;
+	width: 300px;
+	border-radius: 50px;
+}
+header #logo img:hover{
+	/*-webkit-transform: rotate(360deg);*/
+	transform: rotate(360deg);
+}
+
+nav
+{
+	background: #A4A4A4;
+	position: relative;
+	border: 2px solid white;
+
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0 6em 0 .5em;
+
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+	-webkit-transition: 1s;
+}
+nav ul li a:hover{
+	background: red;
+	border-radius: 2em;
+
+}
+nav ul #publicar_nav
+{
+	position: absolute;
+	top: -0.4em;
+	right: 0;
+}
+nav ul #publicar_nav a
+{
+	background: #F5FBEF;
+	border-radius: 0.5em;
+	color: #3E0BF5;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	font-style: italic;
+	padding: 0.8em 0.8em;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+}
+nav ul #publicar_nav a:hover{
+	box-shadow: 0 0 30px red;
+}
+#contenido
+{
+	margin: 1em; 
+}
+#contenido .item
+{
+	background: white;
+	border-bottom: 3px solid #22BCE0;
+	margin-bottom: 3em;
+	min-height: 128px;
+	position: relative;
+}
+#contenido .item .autor_item
+{
+	color: #AAA;
+}
+#contenido .item .datos_item
+{
+	margin: 1em 1em 0 0;
+}
+#contenido .item .datos_item .fecha_item
+{
+	color: #AAA;
+	float: right;
+}
+#contenido .item .datos_item .tag_item
+{
+	background: #F4502A;
+	border-radius: 0.5em;
+	color: white;
+	display: inline-block;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
+#contenido .item .imagen_item
+{
+	float: left;
+	margin-right: 1em;
+}
+#contenido .item .imagen_item img
+{
+	width: 96px;
+}
+#contenido .item .titulo_item
+{
+	font-size: 1.2em;
+	font-style: italic;
+	margin-bottom: 0;
+	padding: 1em 1em 0 0;
+}
+#contenido .item .titulo_item a
+{
+	color: #444;
+	text-decoration: none;
+}
+#contenido .item .votacion
+{
+	background: white;
+	border-radius: 0 0 0.5em 0.5em;
+	left: 3%;
+	margin-top: 3px; 
+	padding: 0.5em 1em;
+	position: absolute;
+	right: 3%;
+	top: 100%;
+}
+#contenido .item .votacion a
+{
+	text-decoration: none;
+}
+#contenido .item .votacion .guardar_item
+{
+	color: #FFBE2C;
+}
+#contenido .item .votacion .down
+{
+	color: #DD4F24
+}
+#contenido .item .votacion .up
+{
+	color: #22BC68;
+}
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item
+{
+	float: right;
+}
+
+
+
+@media screen and (min-width: 800px){
+
+	#contenido
+	{
+		overflow: hidden;
+	}
+	#contenido .item 
+	{
+		width: 49%;
+		float: left;
+	}
+	#contenido .item:nth-child(odd){
+		margin-right: 2%;
+	}
+
+}
+
+@media screen and (min-width: 1000px){
+	aside
+	{
+		display: block;
+		float: right;
+		margin:1em;
+		width: 25%;
+	}
+	aside video
+	{
+		width: 100%;
+	}
+
+
+}
+
+
+/*Codificacion pestaña mi perfil*/
+.u-title
+{
+	color: #FFF;	
+	border-bottom: 2px solid #FFF;
+	font-size: 2em;
+	font-weight: normal;
+	text-align: center;
+	
+}
+
+.profile
+{
+	text-align: center;
+}
+
+.profile-description
+{
+	background-color: white;
+	border-radius: 1em;
+	color:#3E0BF5;
+	font-size: 1.2em;
+	padding: 1em;
+	margin: 0.5em;
+}
+/*Fin de la Codificacion pestaña mi perfil*/
+/*Configuracion de las fotos del perfil */
+.work-item
+{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	margin-left: 2em;
+
+}
+.work-imagecontainer
+{
+	
+	text-align: center;
+	background-position: center;
+	font-size: 2em;
+	padding: 0.2em;
+
+}
+.work-description
+{
+	font-style: italic;
+	padding-bottom: 1em;
+}
+.work-image
+{
+	margin-top: 1em;
+	border-radius: 25%;
+	width: 150px;
+	border: 1px solid #22BCE0;
+	box-shadow: rgba(255,255,255,0.5) 5px 5px 20px;
+
+}
+.fotos-perfil
+{	text-align: center;
+	position: relative;
+	border-bottom: 3px solid #22BCE0;
+
+
+}
+/*Fin de configuracion de fotos del perfil*/
+
+/*Codificacion de estilos del area de contacto*/
+.contact 
+{
+	background-image: url('../img/footer.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 1em 0;
+	background-size: cover;
+	/*border-bottom: 5px solid #343B54;*/
+	border-top: 5px solid #343B54;
+	text-align: center;
+
+}
+.contact-form
+{
+
+	text-align: center;
+	display: inline-block;
+}
+.contact-left
+{
+	display: inline-block;
+	width: 32em;
+	text-align: center;
+	vertical-align: top;
+}
+.contact-title
+{
+	color: white;	
+	font-size: 1.5em;
+	font-weight: normal;
+	text-align: center;
+	margin: 0 2em;
+	
+
+}
+.contact-description
+{
+	color: white;
+	margin-bottom: 0.5em;
+
+}
+.contact-forminput,
+.contact-formtextarea
+{
+	background: white;
+	border: 2px solid #343B54;
+	display: block;
+	border-radius: 2em;
+	padding: 0.5em;
+	margin: 0 auto .5em;
+	box-shadow: rgba(255,255,255,0.5) 5px 5px 20px;
+}
+.contact-formtextarea
+{
+	resize: none;
+}
+.contact-formbutton
+{
+	background: #2a0fe6;
+	color: white;
+	border-radius: 1em;
+	padding: 0.6em 0.6em;
+	border: 2px solid #343B54;
+
+}
+
+.nav-perfil
+{
+	background: #A4A4A4;
+	position: relative;
+	border: 2px solid white;
+	margin: 0 1em;
+	border-radius: 1em;
+
+}
+.nul
+{
+	/*list-style: none;*/
+	margin: 0;
+	padding: 0 0.5em 0 .5em;
+	list-style-type: disc;
+}
+.nil
+{
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+.na
+{
+	color: red;
+	display: block;
+	padding: 0.5em;
+	margin: auto;
+	text-decoration: none;
+	-webkit-transition: 1s;
+}
+.na:hover{
+	background: white;
+	border-radius: 2em;
+
+}
+/*Codificacion de informacion academica*/
+/*primaria*/
+
+.titulo-primaria
+{
+	text-align: center;
+	color: red;
+	font-weight: normal;
+	padding: 0.2em 0.5em;
+	margin: 0.2em 0.5em;
+}
+.primaria
+{
+	border: 2px solid white;
+	border-radius: 2em;
+	margin: 0.5em;
+	background: #A4A4A4;
+	/*width: 100%;*/
+}
+
+table 
+{ 
+	
+  width: 100%; 
+  border-spacing: 0.3em; 
+  padding-bottom: 1em;
+
+}
+/* Zebra striping */
+tr 
+{ 
+  background: white; 
+  color: red;
+}
+th { 
+  background: #343B54; 
+  color: white; 
+  font-weight: bold;
+  border-radius: 2em; 
+  padding-bottom: 1em;
+}
+td, th 
+{ 
+  padding: 0.6em; 
+  text-align: left; 
+  border-radius: 2em;
+  border: 2px solid white;
+  box-shadow: rgba(255,255,255,0.5) 5px 5px 20px;
+}
+/*Codificacion de informacion academica*/
+/*otrosestudios*/
+.titulo-otrosestudios
+{
+	text-align: center;
+	color: red;
+	font-weight: normal;
+	padding: 0.2em 0.5em;
+	margin: 0.2em 0.5em;
+}
+.otrosestudios
+{
+	border: 2px solid white;
+	border-radius: 2em;
+	margin: 0.5em;
+	background: #A4A4A4;
+}
+
+table 
+{ 
+	
+  width: 100%; 
+  border-spacing: 0.3em; 
+  padding-bottom: 1em;
+
+}
+/* Zebra striping */
+tr 
+{ 
+  background: white; 
+  color: red;
+}
+th { 
+  background: #343B54; 
+  color: white; 
+  font-weight: bold;
+  border-radius: 2em; 
+  border-bottom: 1em;
+  
+
+}
+td, th 
+{ 
+  padding: 0.6em; 
+  text-align: left; 
+  border-radius: 2em;
+  border: 2px solid white;
+  box-shadow: rgba(255,255,255,0.5) 5px 5px 20px;
+}
+.tbcolor
+{
+	background: #797D86;
+  	color: white;
+
+}
+.aotroestudios
+{
+	color: white;
+	padding: 0.5em;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: 1.3s;
+}
+.aotroestudios:hover{
+	box-shadow: 0 0 30px white;
+	border-radius: 2em;
+}
+.thortrosestudios
+{
+	text-align: center;
+	background: #343B54;	
+}
+
+.titulo-otrosestudios
+{
+	text-align: center;
+	color: blue;
+	font-weight: bold;
+	padding: 0.2em 0.5em;
+	margin: 0.2em 0.5em;
+}
+/*Proyectos realizados y conocimientos tecnicos*/
+.tituloproyectos
+{
+	text-align: center;
+}
+.tituloproyec
+{
+	color: blue;
+	text-align: center;
+}
+.proyectosbox
+{
+	border: 2px solid white;
+	border-radius: 2em;
+	margin: 0.5em;
+	background: #A4A4A4;
+	margin-bottom: 2em;
+}
+.parrafo-proyectos
+{
+	color: white;
+}
+
+/*experiencia*/
+.experiencia
+{
+	border: 2px solid white;
+	border-radius: 2em;
+	margin: 0.5em;
+	background: #A4A4A4;
+	
+}
+
+.tbcolor
+{
+	background: #797D86;
+  	color: white;
+
+}
+.thorexperiencia
+{
+	text-align: center;
+	background: #343B54;	
+}
+
+.titulo-experiencia
+{
+	text-align: center;
+	color: blue;
+	font-weight: bold;
+	padding: 0.2em 0.5em;
+	margin: 0.2em 0.5em;
+}

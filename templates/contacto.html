@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>CamiloTomos</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, maximum-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="../static/images/fotos/favicon.ico">
+        <link rel="stylesheet" href="../static/css/normalize.css">
+        <link rel="stylesheet" href="../static/css/estilos.css">
+        <link rel="stylesheet" href="../static/css/estilos3.css">
+    </head>
+    <body>
+
+    <!--Se crea la clase contender para colocar 
+    fondo a todo el diseño -->
+    <section class="Contender">
+
+        <header id="yo" class="Header">
+            <button class="Header-button is-active icon-showMenu" id="showMenu"></button>
+            <button class="Header-button icon-hideMenu" id="hideMenu"></button>
+            <nav class="MainMenu" id="menu">
+                <ul class="MainMenu-list">
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link-u" href="index.html">Inicio</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="miperfil.html">Mi Perfil</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="experiencia.html">Experiencia Laboral</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdXGnQjuWP9gudGCUpvEHpfYc_AN5hBEyfV_-U0by4tjdzTNw/viewform?embedded=true" width="300" height="300" target="_blank" >Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            
+        </header>
+
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdXGnQjuWP9gudGCUpvEHpfYc_AN5hBEyfV_-U0by4tjdzTNw/viewform?embedded=true" width="1024" height="480" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
+       
+       
+        <script src="http://code.jquery.com/jquery-2.2.0.min.js" ></script>
+        <script src="../static/js/vendors/responsiveslides.min.js" ></script>
+        <script src="../static/js/vendors/hammer.min.js"></script>
+
+        <script>
+        $(function() {
+        $(".rslides").responsiveSlides();
+
+        if (window.matchMedia("(max-width:768px)").matches){
+            
+        var $buttonHideMenu = document.getElementById('hideMenu');
+        var $buttonShowMenu = document.getElementById('showMenu');
+      
+        var $menu = document.getElementById('menu');
+        
+        var $body = document.querySelector('body');
+
+        var body = new Hammer($body);
+
+
+        var hideMenu = function(){
+            $buttonShowMenu.classList.remove('is-active');
+            $buttonHideMenu.classList.add('is-active');
+            $menu.classList.add('is-active');
+        };
+
+        var showMenu = function(){
+            $buttonShowMenu.classList.add('is-active');
+            $buttonHideMenu.classList.remove('is-active');
+            $menu.classList.remove('is-active');
+        };
+
+        $buttonShowMenu.addEventListener("click", hideMenu);
+
+        $buttonHideMenu.addEventListener("click", showMenu);
+
+        body.on('panright', showMenu);
+        body.on('panleft', hideMenu);
+
+        }
+        else
+        {
+            
+        }
+
+        });
+        </script>
+           
+    </body>
+</html>
