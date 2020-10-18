@@ -1,9 +1,10 @@
 # README PERSONAL CAMILO TORRES MOSQUERA
 
-Soy una persona alegre, a la que le gusta ver las cosas buenas de la vida. Me gusta que mi trabajo hable por mí, me gustar estar y mantenerme tranquilo. Me gusta caminar para despejar la mente, siento que es un encuentro conmigo mismo.
-Me gusta que los demás crezcan y si tengo la posibilidad de ayudarles a lograrlo estere encantado de hacerlo. Soy una persona que le gusta escuchar a otros. Generar esa tranquilidad y confianza de que todo va a estar bien y que no hay algo que no se pueda lograr.
-Me gusta aprender, y cuando no se algo prefiero decir que no lo sé que por presumir llegar a cometer un error, me es más fácil estudiarlo y entender las cosas mejor después
-Soy una persona de familia, me gusta estar en el hogar, me siento cómodo y tranquilo simplemente es algo mágico 
+<p>Soy una persona alegre, a la que le gusta ver las cosas buenas de la vida. Me gusta que mi trabajo hable por mí, me gustar estar y mantenerme tranquilo. Me gusta caminar para despejar la mente, siento que es un encuentro conmigo mismo.</p>
+
+<p>Me gusta que los demás crezcan y si tengo la posibilidad de ayudarles a lograrlo estere encantado de hacerlo. Soy una persona que le gusta escuchar a otros. Generar esa tranquilidad y confianza de que todo va a estar bien y que no hay algo que no se pueda lograr.</p>
+
+<p>Me gusta aprender, y cuando no se algo prefiero decir que no lo sé que por presumir llegar a cometer un error, me es más fácil estudiarlo y entender las cosas mejor después, Soy una persona de familia, me gusta estar en el hogar, me siento cómodo y tranquilo simplemente es algo mágico.</p>
 
 
 >Este es mi hoja de vida y algunas de las cas cosas que me gusta hacer, quería tener a la mano y en un enlace mi increíble hoja de vida y porque no?
